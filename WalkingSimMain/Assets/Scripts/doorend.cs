@@ -11,7 +11,7 @@ public class doorend : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnCollisionExit(Collision collision)
+   void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.tag == "vision")
         {

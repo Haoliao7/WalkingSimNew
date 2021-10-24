@@ -6,9 +6,9 @@ public class roadEntranceDestory : MonoBehaviour
 {
 
 
-    public Mesh meshes;
+    
     public GameObject wall;
-    public GameObject longroad;
+    public GameObject doorend;
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +26,8 @@ public class roadEntranceDestory : MonoBehaviour
     {
         if (collision.gameObject.tag == "vision")
         {
-            //GetComponent<MeshFilter>().mesh = meshes;
-            if (longroad.activeSelf)
+
+            if (doorend.activeSelf)
             {
                 wall.SetActive(true);
                 gameObject.SetActive(false);

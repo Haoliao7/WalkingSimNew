@@ -6,7 +6,6 @@ public class pressButton : MonoBehaviour
 {
   
     public GameObject level;
-    public GameObject thisButton;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +27,6 @@ public class pressButton : MonoBehaviour
             
             if (Input.GetMouseButtonDown(0)) {
                 level.SetActive(true);
-                thisButton.SetActive(false);
             }
 
         }
