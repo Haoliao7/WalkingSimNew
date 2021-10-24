@@ -5,6 +5,8 @@ using UnityEngine;
 public class doorend : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public GameObject someoneElse;
     void Start()
     {
         
@@ -13,7 +15,7 @@ public class doorend : MonoBehaviour
     // Update is called once per frame
    void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.tag == "vision")
+        if (collision.gameObject.tag == "vision" && !someoneElse.activeSelf)
         {
             gameObject.SetActive(false);
 

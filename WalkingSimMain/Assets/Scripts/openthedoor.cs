@@ -8,7 +8,9 @@ public class openthedoor : MonoBehaviour
     public GameObject endingWhite;
     //public GameObject endingtext;
     public GameObject player;
-    // Start is called before the first frame update
+    public GameObject anime;
+    public GameObject animetext;
+    public GameObject openDoorEnding;
     void Start()
     {
         
@@ -20,22 +22,21 @@ public class openthedoor : MonoBehaviour
         
     }
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-
         if (other.gameObject.tag == "Player")
         {
+            anime.SetActive(true);
+            animetext.SetActive(true);
 
-            if (Input.GetMouseButtonDown(0))
-            {
-                endingWhite.SetActive(true);
-                //endingtext.SetActive(true);
-
-                player.GetComponent<CharacterController>().enabled = false;
-            }
+            player.GetComponent<CharacterController>().enabled = false;
+            openDoorEnding.SetActive(true);
 
         }
 
     }
+
+
+    
 
 }

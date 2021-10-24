@@ -9,6 +9,7 @@ public class roadEntranceDestory : MonoBehaviour
     
     public GameObject wall;
     public GameObject doorend;
+    public GameObject someoneElse;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class roadEntranceDestory : MonoBehaviour
         if (collision.gameObject.tag == "vision")
         {
 
-            if (doorend.activeSelf)
+            if (doorend.activeSelf && !someoneElse.activeSelf)
             {
                 wall.SetActive(true);
                 gameObject.SetActive(false);

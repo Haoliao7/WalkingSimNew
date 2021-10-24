@@ -8,7 +8,10 @@ public class button5 : MonoBehaviour
     public GameObject doorend;
     public GameObject invisiblewall;
     public GameObject NPC;
+    public GameObject someoneElse;
     public GameObject thisButton;
+    public GameObject anime;
+    public GameObject animetext;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +32,9 @@ public class button5 : MonoBehaviour
             {
                 if (!doorend.activeSelf) {
                     NPC.SetActive(true);
+                    anime.SetActive(true);
+                    animetext.SetActive(true);
+                    someoneElse.SetActive(true);
                     Destroy(thisButton);
                 }
                 entrance.SetActive(true);
