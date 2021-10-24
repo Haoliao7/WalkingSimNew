@@ -5,7 +5,6 @@ using UnityEngine;
 public class buttonappear : MonoBehaviour
 {
 
-    public GameObject empty;
     public GameObject button;
     int look = 0;
     // Start is called before the first frame update
@@ -21,8 +20,7 @@ public class buttonappear : MonoBehaviour
         {
             look += 1;
             if (look > 3) {
-                Instantiate(button, empty.transform.position, empty.transform.rotation);
-                Destroy(gameObject);
+                button.SetActive(true);
             }
             
         }
