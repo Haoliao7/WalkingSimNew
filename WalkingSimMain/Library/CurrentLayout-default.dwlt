@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 79
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 80
+  controlID: 86
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 81
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Game Center Admin\Desktop\WalkingSimNew\WalkingSimMain
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 64}
-    m_SelectedIDs: f04f0000
-    m_LastClickedID: 20464
-    m_ExpandedIDs: 00000000c64f0000c84f0000ca4f0000cc4f0000ce4f000000ca9a3b
+    m_SelectedIDs: 044f0000
+    m_LastClickedID: 20228
+    m_ExpandedIDs: 00000000da4e0000dc4e0000de4e0000e04e0000e24e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c64f0000c84f0000ca4f0000cc4f0000ce4f0000
+    m_ExpandedIDs: 00000000da4e0000dc4e0000de4e0000e04e0000e24e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -441,7 +441,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 224
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -506,24 +506,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 36}
-      m_SelectedIDs: 4a580000
-      m_LastClickedID: 22602
-      m_ExpandedIDs: 14f7ffff52fbffff4a510000ac540000c0550000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: aade0000
+      m_LastClickedID: 57002
+      m_ExpandedIDs: babbffff82d0ffff02d4ffff0cd8ffffc2dbffff2af7ffff52fbffffd05100001e550000e6560000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Spot Light
-        m_OriginalName: Spot Light
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -5226
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -569,9 +569,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.909061, y: -17.08791, z: 7.1852417}
+    m_Target: {x: 38.51, y: 9.649998, z: 56.62}
     speed: 2
-    m_Value: {x: 17.909061, y: -17.08791, z: 7.1852417}
+    m_Value: {x: 38.51, y: 9.649997, z: 56.62}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -618,13 +618,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.060176544, y: 0.9343845, z: -0.19068404, w: -0.29488352}
+    m_Target: {x: -0.007736441, y: 0.98288447, z: -0.17916998, w: -0.04248652}
     speed: 2
-    m_Value: {x: -0.06017618, y: 0.93437886, z: -0.19068287, w: -0.29488173}
+    m_Value: {x: -0.0077363304, y: 0.9828704, z: -0.17916742, w: -0.04248591}
   m_Size:
-    m_Target: 46.14396
+    m_Target: 8.034906
     speed: 2
-    m_Value: 44.1569
+    m_Value: 7.6889057
   m_Ortho:
     m_Target: 0
     speed: 2
