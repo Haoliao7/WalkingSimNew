@@ -8,6 +8,7 @@ public class destorySomeoneElse : MonoBehaviour
     public GameObject endingWhite;
     //public GameObject endingtext;
     public GameObject player;
+    public GameObject openDoor;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class destorySomeoneElse : MonoBehaviour
     {
         if (collision.gameObject.tag == "vision")
         {
+            openDoor.SetActive(false);
             endingWhite.SetActive(true);
             //endingtext.SetActive(true);
 
