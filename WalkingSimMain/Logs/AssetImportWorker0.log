@@ -15,11 +15,11 @@ E:/School/Fall 2021/Studio I/WalkingSim/WalkingSimLAST/WalkingSimNew/WalkingSimM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58671
+50370
 Successfully changed project path to: E:/School/Fall 2021/Studio I/WalkingSim/WalkingSimLAST/WalkingSimNew/WalkingSimMain
 E:/School/Fall 2021/Studio I/WalkingSim/WalkingSimLAST/WalkingSimNew/WalkingSimMain
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004584 seconds.
+Registered in 0.004219 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.686 seconds
+- Completed reload, in  2.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1686ms)
-		BeginReloadAssembly (83ms)
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (627ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (701ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (294ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (211ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (100ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004605 seconds.
+Registered in 0.005275 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.171 seconds
+- Completed reload, in  3.328 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1172ms)
-		BeginReloadAssembly (182ms)
+	ReloadAssembly (3330ms)
+		BeginReloadAssembly (248ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (919ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2972ms)
+			LoadAssemblies (280ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (401ms)
+			SetupTypeCache (725ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (1573ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (274ms)
+				ProcessInitializeOnLoadAttributes (1258ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 177.8 MB.
 System memory in use after: 177.9 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 3.706200 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 3.349300 ms  DeleteObjects: 0.029600 ms)
+Total: 6.744600 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.101500 ms MarkObjects: 6.371100 ms  DeleteObjects: 0.043500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,161 +134,73 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Fireflies particle.prefab
-  artifactKey: Guid(433cb9dc65052e64cb55c668e10cb339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fireflies particle.prefab using Guid(433cb9dc65052e64cb55c668e10cb339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952c655d55d8d7a8541e8c95c5292397') in 0.232298 seconds 
-  Import took 0.235652 seconds .
+  path: Assets/First Person Drifter Controller/EverythingLibrary_Geology_001.fbx
+  artifactKey: Guid(e37125de1752b1142a7a228258a3841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/EverythingLibrary_Geology_001.fbx using Guid(e37125de1752b1142a7a228258a3841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9010ca062b4a6b52e67c357dbeeb2ec4') in 4.042460 seconds 
+  Import took 4.128710 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.544280 seconds.
-  path: Assets/everything pack/EverythingLibrary_Animals_001.fbx
-  artifactKey: Guid(f7ae7beda32703d45aedabc0816054e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/everything pack/EverythingLibrary_Animals_001.fbx using Guid(f7ae7beda32703d45aedabc0816054e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc184ff1b797d7f2c1edbc0d462afa10') in 1.239785 seconds 
-  Import took 1.245288 seconds .
+  Time since last request: 0.000952 seconds.
+  path: Assets/First Person Drifter Controller/Player.prefab
+  artifactKey: Guid(25e3ab2d6992a48f3ab7455baed062e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/Player.prefab using Guid(25e3ab2d6992a48f3ab7455baed062e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2d207ac505d92893f2bd479e837501') in 0.092760 seconds 
+  Import took 0.138464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Materials/moss.mat
-  artifactKey: Guid(5a087e31b066cd049bc0e78d202a7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/moss.mat using Guid(5a087e31b066cd049bc0e78d202a7f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920264b312f76cea44b319820c30cddf') in 0.208285 seconds 
-  Import took 0.211077 seconds .
+  Time since last request: 0.005525 seconds.
+  path: Assets/First Person Drifter Controller/invisible.mat
+  artifactKey: Guid(9e91539ab83404143beb14375a1ee57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/invisible.mat using Guid(9e91539ab83404143beb14375a1ee57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad1123ed4b31688c2c50873bcde3a88') in 0.239120 seconds 
+  Import took 0.257449 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 2.mat
-  artifactKey: Guid(03f63bc20fb459248a4a28ac7768c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 2.mat using Guid(03f63bc20fb459248a4a28ac7768c324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acfa1c39f097dde162375cd74dc68a5') in 0.010674 seconds 
-  Import took 0.013407 seconds .
+  Time since last request: 0.000401 seconds.
+  path: Assets/First Person Drifter Controller/everythingmaterial.mat
+  artifactKey: Guid(6f852df8abe4a0c44ae211ef77157b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/everythingmaterial.mat using Guid(6f852df8abe4a0c44ae211ef77157b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0827deaf510867e8ca9dfa4eb4552ab5') in 0.038760 seconds 
+  Import took 0.052675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 4.mat
-  artifactKey: Guid(a4837fa2db3044f4ebddda971ae619f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 4.mat using Guid(a4837fa2db3044f4ebddda971ae619f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee4ccb0f685aa0e74b489234c93163e') in 0.013385 seconds 
-  Import took 0.016033 seconds .
+  Time since last request: 0.000391 seconds.
+  path: Assets/First Person Drifter Controller/everything material.mat
+  artifactKey: Guid(4fdebafc46227ff4193fe339e2413598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/everything material.mat using Guid(4fdebafc46227ff4193fe339e2413598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8531dd22f43b3c8ac2cf54eff9f42b8e') in 0.043724 seconds 
+  Import took 0.064107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 1.mat
-  artifactKey: Guid(e3c92db89668ebb439f67832a852a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 1.mat using Guid(e3c92db89668ebb439f67832a852a3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314bedbb689aed2e0c2905a80c1a8b36') in 0.011867 seconds 
-  Import took 0.014609 seconds .
+  Time since last request: 0.004361 seconds.
+  path: Assets/First Person Drifter Controller/PauseMenu.prefab
+  artifactKey: Guid(2107f694de6514f70bd16ce5102284c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/PauseMenu.prefab using Guid(2107f694de6514f70bd16ce5102284c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6694e7a51915c99e26004b7cd4e925') in 0.069891 seconds 
+  Import took 0.092836 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/First Person Drifter Controller/New Material 1.mat
-  artifactKey: Guid(e24f6d1daf3df5d49a0f3396ea102494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Person Drifter Controller/New Material 1.mat using Guid(e24f6d1daf3df5d49a0f3396ea102494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0362631c7d89276e3a34574956df91') in 0.014605 seconds 
-  Import took 0.017926 seconds .
+  Time since last request: 0.000448 seconds.
+  path: Assets/First Person Drifter Controller/VanillaPlayer.prefab
+  artifactKey: Guid(f27b3fd2e6b194b9b964e097240e5f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/First Person Drifter Controller/VanillaPlayer.prefab using Guid(f27b3fd2e6b194b9b964e097240e5f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4971e1b0ae3fcb49bd28bf83657d5bdd') in 0.103970 seconds 
+  Import took 0.124142 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Materials/road.mat
-  artifactKey: Guid(f076925ddbe6c2b4b98e0e929ddf8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/road.mat using Guid(f076925ddbe6c2b4b98e0e929ddf8c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6565f5bf0e5c63fce15af1e86dc781ab') in 0.012801 seconds 
-  Import took 0.015571 seconds .
+  Time since last request: 385.925828 seconds.
+  path: Assets/everything pack/EverythingLibrary_Consumables_002.fbx
+  artifactKey: Guid(0f902fee52cc97441ab7e63b55b7d19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/everything pack/EverythingLibrary_Consumables_002.fbx using Guid(0f902fee52cc97441ab7e63b55b7d19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f364197aa19727a5a4271c23644a3c4f') in 0.648992 seconds 
+  Import took 0.653734 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/New Material.mat
-  artifactKey: Guid(59e3f05dcde61f947b6907877e6c6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/New Material.mat using Guid(59e3f05dcde61f947b6907877e6c6449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdfc57728453eff6be6ade6658bca9') in 0.012220 seconds 
-  Import took 0.015026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 3.mat
-  artifactKey: Guid(a33ed502185220a4d97ede3de7fd9163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Shirt 3.mat using Guid(a33ed502185220a4d97ede3de7fd9163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723b0be4eb8702e821689274f44e1960') in 0.011807 seconds 
-  Import took 0.015742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Skin 1.mat
-  artifactKey: Guid(0cb07277ecdcb6547ad06f13b33b4736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Skin 1.mat using Guid(0cb07277ecdcb6547ad06f13b33b4736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0add2edbaf90220d8ae5cbcee8a0a712') in 0.013255 seconds 
-  Import took 0.016068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Keypad/Materials/Red.mat
-  artifactKey: Guid(42b14c16018de7b4fbab7b8138d495c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Keypad/Materials/Red.mat using Guid(42b14c16018de7b4fbab7b8138d495c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775c129854dbca1dd62908f77d6ff61e') in 0.033020 seconds 
-  Import took 0.036221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/everything pack/EverythingLibrary_Furnishings_001.fbx
-  artifactKey: Guid(1e7b7aa28000eee46a00f334970493b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/everything pack/EverythingLibrary_Furnishings_001.fbx using Guid(1e7b7aa28000eee46a00f334970493b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb785db480cf9d20c2d7b7957c45729') in 1.266978 seconds 
-  Import took 1.273533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Tree.mat
-  artifactKey: Guid(8b6f2c2c5ab4c0149b18ba7b50b58178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/greyRoadStudio/LowPolyTreePack/Materials/Mat_Tree.mat using Guid(8b6f2c2c5ab4c0149b18ba7b50b58178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2408e21caae25e0ce60b4bb462a26b') in 0.013650 seconds 
-  Import took 0.016617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/PBR Lamps Pack Free/Large round lamp/Materials/No Name.mat
-  artifactKey: Guid(c73defbbcb6936a4fa7bbb2a294ed095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PBR Lamps Pack Free/Large round lamp/Materials/No Name.mat using Guid(c73defbbcb6936a4fa7bbb2a294ed095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51b1538ffb0fc2dc7de0b5590431a9c') in 0.013199 seconds 
-  Import took 0.016905 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Distant Lands/Free Characters/Contents/Materials/Skin 2.mat
-  artifactKey: Guid(17f1bd9c4bd45454ebf9855e7dfda148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Distant Lands/Free Characters/Contents/Materials/Skin 2.mat using Guid(17f1bd9c4bd45454ebf9855e7dfda148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32773f8db486c906fd34adc23ba76dc4') in 0.013283 seconds 
-  Import took 0.016185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(c660744de557f39468674c83dee44a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(c660744de557f39468674c83dee44a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965465d8f7a9cf941ab2f8b0934de622') in 0.012490 seconds 
-  Import took 0.015682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/First Person Drifter Controller/EverythingLibrary_Furnishings_001.fbx
-  artifactKey: Guid(52821dc0d65e5b346bdcc1f9651b808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Person Drifter Controller/EverythingLibrary_Furnishings_001.fbx using Guid(52821dc0d65e5b346bdcc1f9651b808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdb9b8f3b06f74e354eed2d41270aab') in 1.259961 seconds 
-  Import took 1.266640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.205463 seconds.
-  path: Assets/First Person Drifter Controller/EverythingLibrary_Buildings_001.fbx
-  artifactKey: Guid(3b659e7bf8fb5e04bb858afb91e0c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/First Person Drifter Controller/EverythingLibrary_Buildings_001.fbx using Guid(3b659e7bf8fb5e04bb858afb91e0c228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb54225e19b0b5acc61a3137e66d2f73') in 1.663620 seconds 
-  Import took 1.671374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/everything pack/EverythingLibrary_Buildings_001.fbx
-  artifactKey: Guid(88f0573c8ce07a64b837aea58039cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/everything pack/EverythingLibrary_Buildings_001.fbx using Guid(88f0573c8ce07a64b837aea58039cf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec672cf07f6a71167e0deb6aae28e0b6') in 1.635013 seconds 
-  Import took 1.642231 seconds .
+  Time since last request: 16.763541 seconds.
+  path: Assets/everything pack/EverythingLibrary_Geology_001.fbx
+  artifactKey: Guid(2007e7dbb5fd2a44280a0978afa1ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/everything pack/EverythingLibrary_Geology_001.fbx using Guid(2007e7dbb5fd2a44280a0978afa1ab49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d8f9a6329156498bad001fe028f0f') in 1.716032 seconds 
+  Import took 1.723221 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
