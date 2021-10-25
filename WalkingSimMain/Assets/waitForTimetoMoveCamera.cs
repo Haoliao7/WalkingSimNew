@@ -7,6 +7,7 @@ public class waitForTimetoMoveCamera : MonoBehaviour
 
     public GameObject player;
     public GameObject gamecamera;
+    public int waitSeconds;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class waitForTimetoMoveCamera : MonoBehaviour
     }
 
     IEnumerator Wait() {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(waitSeconds);
         player.GetComponent<MouseLook>().enabled = true;
         gamecamera.GetComponent<MouseLook>().enabled = true;
 
