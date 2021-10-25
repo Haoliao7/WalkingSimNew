@@ -6,6 +6,8 @@ public class openDoorEnding : MonoBehaviour
 {
 
     public GameObject endingWhite;
+    public GameObject player;
+    public GameObject gamecamera;
     //public GameObject endingtext;
     // Start is called before the first frame update
     void Start()
@@ -18,7 +20,8 @@ public class openDoorEnding : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            Debug.Log("999999999999999");
+            player.GetComponent<MouseLook>().enabled = false;
+            gamecamera.GetComponent<MouseLook>().enabled = false;
             endingWhite.SetActive(true);
             //endingtext.SetActive(true);
         }
